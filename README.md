@@ -14,6 +14,10 @@ We will be using various techniques such as neural network, svm, logistic regres
 Hang Seng Futures minute level price data for 2014. The dataset is already cleaned with the first column as UP, DOWN or FLAT after N-minute. The rest are features which include commonly used indicators, such as ROC, RSI. The data are also standardised from 0 to 1.
 Datasets are separated by training data (from 2014-01-01 to 2014-06-30) and testing data (from 2014-07-01 to 2014-12-31).
 
+## How to use
+
+Users should first download the dataset. First ran the RFE.py file which is the features selection program to select the top 10 features for each minute set. Next, users can run each of the machine learning program (including Neural Network, SVM, Random Forest and Logistic Regression) to compare the predicted result with the actual result. 
+
 ### Prerequisites
 
 *Requirements:
