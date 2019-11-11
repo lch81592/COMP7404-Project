@@ -1,4 +1,4 @@
-# COMP7404-Project
+# STAT8017 Project
 
 # Project Title
 
